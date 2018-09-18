@@ -1828,10 +1828,9 @@ def bot(op):
 #===========BOT UPDATE============#
                         elif cmd == ".nisa" or text.lower() == '😆':
                           if wait["selfbot"] == True:
-                            if msg._from in admin:
-                               group = cl.getGroup(msg.to)
+                               group = aditmadzs.getGroup(msg.to)
                                nama = [contact.mid for contact in group.members]
-                               nm1, nm2, nm3, nm4,nm5,nm6,nm7, jml = [], [], [], [],[], [], [], len(nama)
+                               nm1, nm2, nm3, nm4, jml = [], [], [], [], len(nama)
                                if jml <= 20:
                                    mentionMembers(msg.to, nama)
                                if jml > 20 and jml < 40:
@@ -1946,7 +1945,7 @@ def bot(op):
                                    for p in range (140, len(nama)-1):
                                        nm8 += [nama[p]]
                                    mentionMembers(msg.to, nm8)
-
+					
                         elif cmd == "listbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
