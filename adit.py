@@ -1276,7 +1276,7 @@ def bot(op):
                         wait["dellstaff"] = True
                     else:
                         wait["dellstaff"] = True
-                        aditmadzs.sendMessage(msg.to,"Contact itu bukan staff")
+                        aditmadzs.sendMessage(msg.to,"Contact itu tukang bully 😂😂😂")
 #===========ADD ADMIN============#
                  if msg._from in admin:
                   if wait["addadmin"] == True:
@@ -1293,7 +1293,7 @@ def bot(op):
                         aditmadzs.sendMessage(msg.to,"Berhasil menghapus dari admin")
                     else:
                         wait["delladmin"] = True
-                        aditmadzs.sendMessage(msg.to,"Contact itu jago desah")
+                        aditmadzs.sendMessage(msg.to,"Contact itu tukang bully 😂😂😂")
 #===========ADD BLACKLIST============#
                  if msg._from in admin:
                   if wait["wblacklist"] == True:
