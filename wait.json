@@ -1,7 +1,7 @@
 {
     "Mentiongift": false,
     "Mentionkick": false,
-    "Respontag": "yupz",
+    "Respontag": "ταg ταg muLu..καηgeη γαh siηι ρεητυηg",
     "Talkblacklist": {},
     "Talkdblacklist": false,
     "Talkwblacklist": false,
@@ -26,11 +26,11 @@
     "delladmin": true,
     "dellbots": false,
     "dellstaff": false,
-    "detectMention": false,
+    "detectMention": true,
     "leave": "Nah,, Baper",
     "limit": 1,
-    "mention": "Nah...",
-    "message": "Makasih ya sdh add\n\nCreator : http://line.me/ti/p/~sepriche\n\n-auto Respon",
+    "mention": "Ναhh κεταhυαη ηgintip..αωαs JONES Lοςh sιηι Gαβυηg Chατ γυκκ",
+    "message": "Makasih ya sdh add, salken by. nieza",
     "owner": {},
     "selfbot": true,
     "staff": {},
@@ -38,6 +38,6 @@
     "talkban": false,
     "unsend": true,
     "wblacklist": false,
-    "welcome": "Welcome",
+    "welcome": "Selamat datang ya kk, silahkan jalan2 ke note,, salken by. Nisa",
     "welcomeOn": true
 }
