@@ -13,13 +13,13 @@ from googletrans import Translator
 import youtube_dl
 
 #aditmadzs = LineClient()
-aditmadzs = LineClient(authToken='EwuDVFPmSOzsGrBgPFed.NWNpYXFqn/ktA3uB2DqoRq.DsVloFOnUzC1NDXtzN3Y145iSqpiHyE3CtZqcCDQpzo=')
+aditmadzs = LineClient(authToken='Extitc10rsnnRju0AH8d.391HVw0Z0etSAm7Hu4F1xq.y4cX4++UlsDk//JH/d1/QKQGl/p6B/+vQyywsIxU0CE=')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='EwszngdGn0THZpBLdMl4.UFxlUs4U2EOQjGvMmvWMDa.1nXdteNzHlmb1cv0RofwuAy1H1M87OGDltbkUFaKvwA=')
+ki = LineClient(authToken='Exb0NLItsGg4RdtCYhp7.7fV6jNXB2DIwqq830Dj/bW.whjKozjxiQkG1UxH2+v0KBy2oDN2HaEEDh62earOgbE=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -27,10 +27,10 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u9f09cfcb17d037e2936b751bd9d40ead"]
-owner = ["u9f09cfcb17d037e2936b751bd9d40ead"]
-admin = ["u9f09cfcb17d037e2936b751bd9d40ead"]
-staff = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+creator = ["udfdd61bd6d33d044ec68cee15387f55d"]
+owner = ["udfdd61bd6d33d044ec68cee15387f55d"]
+admin = ["udfdd61bd6d33d044ec68cee15387f55d"]
+staff = ["udfdd61bd6d33d044ec68cee15387f55d"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 KAC = [aditmadzs,ki]
@@ -337,10 +337,10 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔══════════════════════════════╗" + "\n" + \
-                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                  "      ™❍NIEZA BOT" + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
-                  "     ◄]·✪·Menu·✪·[►" + "\n" + \
+                  "     ·✪·Menu·✪·" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠❂➣ " + key + "Help\n" + \
                   "╠❂➣ " + key + "Help bot\n" + \
@@ -448,10 +448,10 @@ def help():
                   "╠❂➣ " + key + "Listprotect\n" + \
                   "╠❂➣ Ketik「 Refresh 」Jika Sudah\n╠❂➣ Menggunakan Command Diatas...\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                  "      ™❍NIEZA BOT" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~sepriche✪·[►" + "\n" + \
+                  "◄]·✪SELFBOT NO TEAM✪·[►" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage
     
@@ -461,7 +461,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╔══════════════════════════════╗" + "\n" + \
-                  "     ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣  " + "\n" + \
+                  "     ™❍NIEZA BOT " + "\n" + \
                   "╚══════════════════════════════╝" + "\n" + \
                   "╔══════════════════════════════╗" + "\n" + \
                   "     ✪·BOT·✪" + "\n" + \
@@ -518,17 +518,17 @@ def helpbot():
                   "╠❂➣ " + key + "Clearban\n" + \
                   "╠❂➣ " + key + "Refresh\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                  "      ™❍NIEZA BOT" + "\n" + \
                   "╠══════════════════════════════╝" + "\n" + \
                   "╠══════════════════════════════╗" + "\n" + \
-                  "◄]·✪line.me/ti/p/~sepriche" + "\n" + \
+                  "◄]·✪SELFBOT NO TEAM" + "\n" + \
                   "╚══════════════════════════════╝"
     return helpMessage1
     
 def infomeme():
     helpMessage2 = """
 ╔══════════════════════════════╗
-       ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ 
+       ™❍NIEZA BOT
 ╚══════════════════════════════╝
 ╔══════════════════════════════╗
     ✪·List Meme·✪
@@ -562,17 +562,17 @@ def infomeme():
 ╠❂➣ contoh:
 ╠❂➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════════════════╗
-      ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ 
+      ™❍NIEZA BOT
 ╠══════════════════════════════╝
 ╠══════════════════════════════╗
-◄]·✪line.me/ti/p/~sepriche
+◄]·✪SELFBOT NO TEAM
 ╚══════════════════════════════╝
 """
     return helpMessage2
     
 def translate():
     helpTranslate =    "╔══════════════════════════════╗" + "\n" + \
-                       "     ™❍✯͜͡ˢᵉᵖʳⁱChe✯͜͡❂➣ " + "\n" + \
+                       "     ™❍NIEZA BOT" + "\n" + \
                        "╚══════════════════════════════╝" + "\n" + \
                        "╔══════════════════════════════╗" + "\n" + \
                        "     ◄]·✪·Translate·✪·[►" + "\n" + \
@@ -692,7 +692,7 @@ def translate():
                        "  Contoh: tr sepriche" + "\n" + \
                        "╠══════════════════════════════╝" + "\n" + \
                        "╠══════════════════════════════╗" + "\n" + \
-                       "◄]·✪line.me/ti/p/~sepriche" + "\n" + \
+                       "◄]·✪selfbot no team" + "\n" + \
                        "╚══════════════════════════════╝"
     return helpTranslate
 
@@ -1153,7 +1153,7 @@ def bot(op):
                    for mention in mentionees:
                         if mention ['M'] in Bots:
                            aditmadzs.sendMessage(msg.to, wait["Respontag"])
-                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"72417427","STKPKGID":"4351989","STKVER":"1"}, contentType=7)
+                           aditmadzs.sendMessage(msg.to, None, contentMetadata={"STKID":"11407400","STKPKGID":"6508","STKVER":"1"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentiongift"] == True:
