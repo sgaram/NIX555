@@ -13,13 +13,13 @@ from googletrans import Translator
 import youtube_dl
 
 #aditmadzs = LineClient()
-aditmadzs = LineClient(authToken='Extitc10rsnnRju0AH8d.391HVw0Z0etSAm7Hu4F1xq.y4cX4++UlsDk//JH/d1/QKQGl/p6B/+vQyywsIxU0CE=')
+aditmadzs = LineClient(authToken='Extitc10rsnnRju0AH8d.91HVw0Z0etSAm7Hu4F1xq.y4cX4++lsDk//JH/d1/QKQGl/p6B/+vQyywsIxU0CE=')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='Exb0NLItsGg4RdtCYhp7.7fV6jNXB2DIwqq830Dj/bW.whjKozjxiQkG1UxH2+v0KBy2oDN2HaEEDh62earOgbE=')
+ki = LineClient(authToken='Exb0NLItsGg4RdtCYhp7.7fV6jXB2DIwqq830Dj/bW.whjKzjxiQkG1UxH2+v0KBy2oDN2HaEEDh62earOgbE=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
